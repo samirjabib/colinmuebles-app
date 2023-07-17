@@ -11,7 +11,7 @@ export default function Paragraph({
   return (
     <p
       className={cn(
-        "text-sm sm:text-base leading-7 [&:not(:first-child)]:mt-6",
+        "text-sm md:text-base leading-7 [&:not(:first-child)]:mt-6",
         className
       )}
     >
