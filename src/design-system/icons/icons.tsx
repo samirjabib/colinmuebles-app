@@ -52,7 +52,7 @@ import {
   Wallet,
   X,
   GripHorizontal,
-  type Icon as LucideIcon,
+  type IconNode as LucideIcon,
   type LucideProps,
   HomeIcon,
 } from "lucide-react";
