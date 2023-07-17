@@ -5,11 +5,16 @@ export default function Paragraph({
   className,
   children,
 }: {
-  className: string;
+  className?: string;
   children: ReactNode;
 }) {
   return (
-    <p className={cn("leading-7 [&:not(:first-child)]:mt-6", className)}>
+    <p
+      className={cn(
+        "text-sm sm:text-base leading-7 [&:not(:first-child)]:mt-6",
+        className
+      )}
+    >
       {children}
     </p>
   );

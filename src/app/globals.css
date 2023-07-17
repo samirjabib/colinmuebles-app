@@ -76,3 +76,18 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  * {
+    outline: none;
+    @apply antialiased;
+  }
+
+  .wrapper {
+    @apply mx-auto px-16 xl:container;
+  }
+
+  .wrapper-mobile {
+    @apply mx-auto px-8 xl:container;
+  }
+}
