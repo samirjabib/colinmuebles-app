@@ -9,19 +9,6 @@ export default function MobileNav({
   navBarOpen: boolean;
   setNavBarOpen: (by: boolean) => void;
 }) {
-  const menuMobileRef = useRef();
-
-  useEffect(() => {
-    document.addEventListener("click", handleOutSideClick, true);
-
-    return document.removeEventListener("click", handleOutSideClick, false);
-  }, []);
-
-  const handleOutSideClick = ({ target }: any) => {
-    if (!menuMobileRef.current?.contains(target)) {
-      setNavBarOpen(false);
-    }
-  };
   return (
     <>
       {navBarOpen && (
