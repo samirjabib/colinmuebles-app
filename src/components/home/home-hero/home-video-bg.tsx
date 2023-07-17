@@ -1,6 +1,9 @@
+import { Overlay } from "@/design-system";
+
 export default function HomeVideoBg() {
   return (
     <div className="absolute w-full h-full -z-10">
+      <Overlay />
       <video
         width="100%"
         height="100%"

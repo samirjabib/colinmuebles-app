@@ -14,6 +14,7 @@ export { default as ThemeDropDown } from "./elements/theme-drop-down/theme-drop-
 export { default as Logo } from "./elements/logo/logo";
 export { default as PropertyCard } from "./elements/property-card/property-card";
 export { default as SubscribeFormModal } from "./elements/subscribe-form-modal/susbscribe-form-modal";
+export { default as Overlay } from "./elements/overlay/overlay";
 
 //icons
 export * from "./icons/icons";

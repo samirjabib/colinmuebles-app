@@ -1,9 +1,9 @@
 import { Paragraph, Title } from "@/design-system";
 import HomeSuscribeComponent from "./home-subscribe";
 
-export default function HomeBox() {
+export default function HomeBoxFloat() {
   return (
-    <div className="wrapper wrapper-mobile flex flex-col text-center mt-48 max-w-lg">
+    <div className="wrapper wrapper-mobile flex flex-col text-center relative top-48">
       <Title as="h1" size={"mainTitle"}>
         Encuentra la propiedad de tus sueños
       </Title>

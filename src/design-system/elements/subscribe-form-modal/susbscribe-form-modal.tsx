@@ -22,7 +22,7 @@ export default function SubscribeFormModal() {
       <DialogTrigger asChild>
         <Button size={"lg"}>Subscribete</Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[425px]">
+      <DialogContent className="w-[90%] sm:max-w-[425px] rounded-lg">
         <DialogHeader>
           <DialogTitle>Suscribirse</DialogTitle>
           <DialogDescription>
@@ -37,23 +37,23 @@ export default function SubscribeFormModal() {
               id="email"
               value=""
               className="col-span-3"
-              placeholder="Ingresa tu email"
+              placeholder="Ingresa tu correo electronico"
             />
           </div>
           <div className="grid grid-cols-4 items-center gap-4">
             <Label className="text-right">Nombre</Label>
             <Input
-              id="username"
-              value="@"
+              id="name"
+              value=""
               className="col-span-3"
-              placeholder="Ingresa tu nombre"
+              placeholder="Ingresa tu nombre completo"
             />
           </div>
           <div className="grid grid-cols-4 items-center gap-4">
             <Label className="text-right">Numero</Label>
             <PhoneInput
               onChange={({ target }: any) => console.log(target.value)}
-              placeholder="Ingresa tu celular"
+              placeholder="Ingresa tu telefono"
               style={{
                 background: "none",
               }}
